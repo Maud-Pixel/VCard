@@ -10,20 +10,38 @@ body
     font-family:"David";
     color: #00cc99;
 }
-section
+
+.container
 {
-    background-color: white;
+    position: relative;
     width: 500px;
     height: 300px;
+}
+
+.overlay
+{
+    background-color: white;
+    width: 100%;
+    height: 100;
     margin-left: 30%;
     margin-top: 20%;
     display: flex;
     flex-direction: raw;
-    
-       
+    opacity: 1;
+    transition: 1s;  
+    position: absolute;  
 }
 
-
+.container:hover .overlay
+{
+    opacity : 0;
+    
+   
+}
+.container:hover .pencil
+{
+    opacity:1;
+}
 img
 {
     width: 250px;
@@ -49,6 +67,16 @@ h1
     width: 20px;
     height: 20px;
     padding-left: 35px; 
+}
+
+.pencil
+{
+    width: 500px;
+    height: 300px;
+    margin-left: 30%;
+    margin-top: 20%;
+    opacity:0;
+    position: absolute;
 }
 
 p
