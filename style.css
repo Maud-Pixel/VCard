@@ -28,7 +28,7 @@ body
     display: flex;
     flex-direction: raw;
     opacity: 1;
-    transition: 1s;  
+    transition: 2s;  
     position: absolute;  
 }
 
