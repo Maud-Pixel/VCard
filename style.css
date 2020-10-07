@@ -1,0 +1,57 @@
+
+@font-face
+{
+ font-family:"David";
+ src: url("Images/font/DavidLibre-Medium.ttf")
+}
+body
+{
+    background-color: #e0ebeb;
+    font-family:"David";
+    color: #00cc99;
+}
+section
+{
+    background-color: white;
+    width: 500px;
+    height: 300px;
+    margin-left: 30%;
+    margin-top: 20%;
+    display: flex;
+    flex-direction: raw;
+    
+       
+}
+
+
+img
+{
+    width: 250px;
+    height:300px;
+    
+}
+
+.coordonates
+{
+   
+   padding-top: 0px; 
+}
+
+h1
+{
+    font-size: 50px;
+    padding-left: 50px; 
+}
+
+.logo
+{
+    float: left;
+    width: 20px;
+    height: 20px;
+    padding-left: 35px; 
+}
+
+p
+{
+    padding-left: 65px;
+}
